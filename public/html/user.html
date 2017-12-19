@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+
+  <!-- external style sheets -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link href="../fonts/glyphicons-halflings-regular.svg" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+</head>
+
+
+
+<!-- ===================== header ======================= -->
+<nav class=" nav-bg">
+  <div class="logo">
+      <a href="index.html">
+          <img src="../images/logo.svg" alt="">
+          <div>
+              <p>passport seva service</p>
+          </div>
+      </a>
+  </div>
+  <div class="vl"></div>
+  <ul class="nav-ul-left">
+      <li>
+          <a href="../index.html">Home</a>
+      </li>
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Service
+              <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+                  <li>
+                          <a href="../html/user.html">User Registration</a>
+                        </li>
+                        <li>
+                          <a href="../html/user2.html">Family Details</a>
+                        </li>
+                        <li>
+                          <a href="../html/user3.html">Present Address</a>
+                
+                        </li>
+                        <li>
+                            <a href="../html/user4.html">Emergency Contact</a>
+                          </li>
+                          <li>
+                              <a href="../html/user5.html">References</a>
+                            </li>
+                            <li>
+                                <a href="../html/user6.html">Previous Passport</a>
+                              </li>
+                              <li>
+                                  <a href="../html/user7.html">Other Details</a>
+                                </li>
+          </ul>
+      </li>
+      <li class="dropdown">
+          <a  href="#contus"> Contact Us
+              
+          </a>
+          
+      </li>
+      <li>
+          <a href="#about">About</a>
+      </li>
+  </ul>
+  <ul class="nav-ul-right">
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Operations
+              <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+              <li>
+                  <a href="../html/track.html">Track Status</a>
+              </li>
+
+              <li>
+                  <a href="../html/check.html">Check Application</a>
+              </li>
+          </ul>
+      </li>
+      <li>
+          <div class="vl" style="height:30px"></div>
+      </li>
+      <li>
+          <a href="../html/login.html">Login
+              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          </a>
+      </li>
+  </ul>
+</nav>
+
+<!-- =============================Header ends============ -->
+
+
+
+
+
+<!-- =============================check status============ -->
+
+  <section class="main">
+
+    <div class="userScreen1" align="center">
+
+      <div class="tab">
+        <button class="tablinks" id="loginBtn">User Registration</button>
+        <!-- <button class="tablinks" onclick="openTab(event, 'signUp')" id="singUpBtn">Sign Up</button> -->
+      </div>
+
+      <div id="signIn" class="tabcontent" style="display:block;">
+        <div class="logHeading"></div>
+        <form>
+          <div>
+            <select required place>
+              <option value="" disabled selected hidden>Register to apply at*...</option>
+              <option value="0">CPV Delhi</option>
+              <option value="1">Passport Office</option>
+              
+            </select>
+          </div>
+          <div>
+            <select required>
+              <option value="" disabled selected hidden>Passport Office*</option>
+              <option value="0">Agali</option>
+              <option value="1">Amadagur</option>
+              <option value="1">Amarapuram</option>
+              <option value="1">Anantapur</option>
+              <option value="1">Brahmasamudram</option>
+              <option value="1">Bukkarayasamudram</option>
+              <option value="1">Chenne Kothapalle</option>
+              <option value="1">Chilamathur</option>
+              <option value="1">D.Hirehal</option>
+              <option value="1">Dharmavaram</option>
+              <option value="1">Hindupur</option>
+              <option value="1">Parigi</option>
+              <option value="1">Thane</option>
+              <option value="1">Bhiwandi</option>
+
+            </select>
+          </div>
+
+
+          <div>
+            <input type="text" placeholder="First Name*" id="lastName" value="" name="" style="width:80%;">
+            <span class="glyphicon glyphicon-user"></span>
+          
+       <div>
+          <input type="text" placeholder="Last Name*" id="firstName" value="" name="" style="width:80%;">
+          
+          
+        </div>
+
+
+
+        <div align="center">
+            <div style="width:80%">
+              <div class="input-group date" data-provide="datepicker">
+                <input type="text" placeholder="Date Of Birth" class="form-control">
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-th"></span>
+                </div>
+              </div>
+
+
+        <div >
+            <input type="email" placeholder="Email Address*" id="signupEmail" value="" name="" style="width:99%">
+          </div>
+
+
+          <div>
+            <input type="password" placeholder="Password*" id="signupPassword" style="width:99%;">
+            </div>
+
+            <div>
+            <input type="password" placeholder="Confirm Password*" id="signupPasswordConf" style="width:99%;">
+          </div>
+
+        
+          <div>
+                <select required place  style="width:99%;">
+                  <option value="" disabled selected hidden>Hint Question*...</option>
+                  <option value="0">Birth City</option>
+                  <option value="1">Favourite Color</option>
+                  <option value="2">Favourite Cricketer</option>
+                  <option value="3">Favourite Food</option>
+                  <option value="4">First School</option>
+                </select>
+              </div>
+
+              <div >
+                    <input type="email" placeholder="Answer" id="signupEmail" value="" name="" style="width:99%">
+                  </div>
+        
+                  <div >
+                        <button type="button" class="blue-bg"    onclick="validate()">Register 
+                           
+                           </button>
+                        <button type="button" class="blue-bg"  onclick="validate()">Reset</button>
+                        
+                      </div>
+
+
+        </form>
+      </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- =============================footer============ -->
+  <section>
+    <div id="footerwrap">
+      <div class="container">
+        <div class="col-lg-5">
+          <h3>Address</h3>
+          129 Sangam Chowk,
+          <br> Near Sakal Press,
+          <br> Swarbaba Nagar
+          <br> Nashik, Maharashtra-422007
+        </div>
+
+        <div id="contus" class="col-lg-7">
+          <h3>Drop Us A Line</h3>
+          <br>
+          <form role="form" action="#" method="post" enctype="plain">
+            <div class="form-group">
+              <label for="name1">Your Name</label>
+              <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email1">Email address</label>
+              <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label>Your Text</label>
+              <textarea class="form-control" name="Message" rows="3"></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============== external script =============== -->
+  <script src="../javascript/jquery.min.js"></script>
+  <script src="../javascript/bootstrap.min.js"></script>
+  <script src="../javascript/bootstrap-datepicker.js"></script>
+  <script src="../javascript/script.js"></script>
+
+
+
+
+  </body>
+
+</html>

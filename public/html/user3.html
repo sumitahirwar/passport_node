@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+
+    <!-- external style sheets -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link href="../fonts/glyphicons-halflings-regular.svg" rel="stylesheet">
+</head>
+
+<body>
+        <!-- ===================== header ======================= -->
+        <nav class=" nav-bg">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../images/logo.svg" alt="">
+                    <div>
+                        <p>passport seva service</p>
+                    </div>
+                </a>
+            </div>
+            <div class="vl"></div>
+            <ul class="nav-ul-left">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Service
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                            <li>
+                                    <a href="../html/user.html">User Registration</a>
+                                  </li>
+                                  <li>
+                                    <a href="../html/user2.html">Family Details</a>
+                                  </li>
+                                  <li>
+                                    <a href="../html/user3.html">Present Address</a>
+                          
+                                  </li>
+                                  <li>
+                                      <a href="../html/user4.html">Emergency Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/user5.html">References</a>
+                                      </li>
+                                      <li>
+                                          <a href="../html/user6.html">Previous Passport</a>
+                                        </li>
+                                        <li>
+                                            <a href="../html/user7.html">Other Details</a>
+                                          </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  href="#contus"> Contact Us
+                        
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+            <ul class="nav-ul-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Operations
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../html/track.html">Track Status</a>
+                        </li>
+    
+                        <li>
+                            <a href="../html/check.html">Check Application</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="vl" style="height:30px"></div>
+                </li>
+                <li>
+                    <a href="../html/login.html">Login
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+ <!-- =============================user2 starts from here============ -->
+
+
+
+ 
+ <section class="main">
+        
+            <div class="userScreen" align="center">
+        
+              <div class="tab">
+                <button class="tablinks" id="loginBtn">Present Address</button>
+                <!-- <button class="tablinks" onclick="openTab(event, 'signUp')" id="singUpBtn">Sign Up</button> -->
+              </div>
+        
+              <div id="signIn" class="tabcontent" style="display:block;">
+                <div class="logHeading"></div>
+                <form>
+                  
+                        <div>
+                                <select required place>
+                                  <option value="" disabled selected hidden>Is your present address out of India*...</option>
+                                  <option value="0">Yes</option>
+                                  <option value="1">No</option>
+                                  
+                                </select>
+                              </div>
+        
+                              <div>
+                                    <select required place>
+                                      <option value="" disabled selected hidden>Residing Since(Month-YYYY)*...</option>
+                                      <option value="0">January</option>
+                                      <option value="1">February</option>
+                                      <option value="1">March</option>
+                                      <option value="1">April</option>
+                                      <option value="1">May</option>
+                                      <option value="1">June</option>
+                                      <option value="1">July</option>
+                                      <option value="1">August</option>
+                                      <option value="1">September</option>
+                                      <option value="1">October</option>
+                                      <option value="1">November</option>
+                                      <option value="1">December</option>
+                                      
+                                    </select>
+                                  </div>
+
+
+                                  <div >
+                                        
+                                        <textarea class="form-control2"  placeholder ="House No and Street Name"  rows="2"  ></textarea>
+                                    </div>
+        
+                  <div>
+                    <input type="text" placeholder="Village/Town/City" id="lastName" value="" name="" style="width:80%" height=":80px">
+                  </div>  
+                  
+               
+                  <div>
+                        <select required place>
+                          <option value="" disabled selected hidden>State/UT</option>
+                          <option value="0">January</option>
+                          <option value="1">February</option>
+                          <option value="2">March</option>
+                          <option value="3">April</option>
+                          <option value="4">May</option>
+                          <option value="5">June</option>
+                          <option value="6">July</option>
+                          <option value="7">August</option>
+                          <option value="8">September</option>
+                          <option value="9">October</option>
+                          <option value="10">November</option>
+                          <option value="11">December</option>
+                          <option value="12">December</option>
+                          <option value="13">December</option>
+                          <option value="14">December</option>
+                          <option value="15">December</option>
+                          <option value="16">December</option>
+                          <option value="17">December</option>
+                          <option value="18">December</option>
+                          <option value="19">December</option>
+                          <option value="20">December</option>
+                          <option value="21">December</option>
+                          <option value="22">December</option>
+                          <option value="23">December</option>
+                          <option value="24">December</option>
+                          <option value="25">December</option>
+                          <option value="26">December</option>
+                          <option value="27">December</option>
+                          <option value="28">December</option>
+                          <option value="29">December</option>
+                          <option value="30">December</option>
+                          
+                        </select>
+                      </div>
+
+        
+                      <div>
+                            <select required place>
+                              <option value="" disabled selected hidden>District</option>
+                              <option value="0">January</option>
+                              <option value="1">February</option>
+                              <option value="2">March</option>
+                              <option value="3">April</option>
+                              <option value="4">May</option>
+                              <option value="5">June</option>
+                              <option value="6">July</option>
+                              <option value="7">August</option>
+                              <option value="8">September</option>
+                              <option value="9">October</option>
+                              <option value="10">November</option>
+                              <option value="11">December</option>
+                              <option value="12">December</option>
+                              <option value="13">December</option>
+                              <option value="14">December</option>
+                              <option value="15">December</option>
+                              <option value="16">December</option>
+                              <option value="17">December</option>
+                              <option value="18">December</option>
+                              <option value="19">December</option>
+                              <option value="20">December</option>
+                              <option value="21">December</option>
+                              <option value="22">December</option>
+                              <option value="23">December</option>
+                              <option value="24">December</option>
+                              <option value="25">December</option>
+                              <option value="26">December</option>
+                              <option value="27">December</option>
+                              <option value="28">December</option>
+                              <option value="29">December</option>
+                              <option value="30">December</option>
+                              
+                            </select>
+                          </div>
+
+
+                          <div>
+                                <select required place>
+                                  <option value="" disabled selected hidden>Police Station</option>
+                                  <option value="0">January</option>
+                                  <option value="1">February</option>
+                                  <option value="2">March</option>
+                                  <option value="3">April</option>
+                                  <option value="4">May</option>
+                                  <option value="5">June</option>
+                                  <option value="6">July</option>
+                                  <option value="7">August</option>
+                                  <option value="8">September</option>
+                                  <option value="9">October</option>
+                                  <option value="10">November</option>
+                                  <option value="11">December</option>
+                                  <option value="12">December</option>
+                                  <option value="13">December</option>
+                                  <option value="14">December</option>
+                                  <option value="15">December</option>
+                                  <option value="16">December</option>
+                                  <option value="17">December</option>
+                                  <option value="18">December</option>
+                                  <option value="19">December</option>
+                                  <option value="20">December</option>
+                                  <option value="21">December</option>
+                                  <option value="22">December</option>
+                                  <option value="23">December</option>
+                                  <option value="24">December</option>
+                                  <option value="25">December</option>
+                                  <option value="26">December</option>
+                                  <option value="27">December</option>
+                                  <option value="28">December</option>
+                                  <option value="29">December</option>
+                                  <option value="30">December</option>
+                                  
+                                </select>
+                              </div>
+
+
+
+                   <div>
+                        <input type="text" placeholder="Pincode" id="firstName" value="" name="" style="width:80%;">
+                         </div>             
+                  
+
+
+                         <div>
+                                <input type="text" placeholder="Mobile No" id="firstName" value="" name="" style="width:80%;">
+                                 </div>  
+        
+
+                                 <div>
+                                        <input type="text" placeholder="Email" id="firstName" value="" name="" style="width:80%;">
+                                         </div>  
+
+                                         
+                
+                               <div>
+                                <button type="button" class="blue-bg" onclick="validate()">Save My Details </button>
+                                <button type="button" class="blue-bg" onclick="validate()">Next</button>
+                                
+                              </div>
+        
+        
+                </form>
+              </div>
+          </section>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- =============================footer============ -->
+    <section>
+            <div id="footerwrap">
+                <div class="container">
+                    <div class="col-lg-5">
+                        <h3>Address</h3>
+                        129 Sangam Chowk,
+                        <br> Near Sakal Press,
+                        <br> Swarbaba Nagar
+                        <br> Nashik, Maharashtra-422007
+                    </div>
+    
+                    <div id="contus" class="col-lg-7">
+                        <h3>Drop Us A Line</h3>
+                        <br>
+                        <form role="form" action="#" method="post" enctype="plain">
+                            <div class="form-group">
+                                <label for="name1">Your Name</label>
+                                <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email1">Email address</label>
+                                <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label>Your Text</label>
+                                <textarea class="form-control" name="Message" rows="3"></textarea>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+    
+    
+    
+        <!-- ============== external script =============== -->
+        <script src="../javascript/jquery.min.js"></script>
+        <script src="../javascript/bootstrap.min.js"></script>
+        <script src="../javascript/bootstrap-datepicker.js"></script>
+        <script src="../javascript/script.js"></script>
+    
+    
+    
+    
+    </body>
+    
+    </html>
